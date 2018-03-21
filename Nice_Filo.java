@@ -211,7 +211,7 @@ public class Nice_Filo {
 		BufferedWriter BW=new BufferedWriter(FW);
 		
 		WebDriver driver = new InternetExplorerDriver(caps);
-		driver.get("https://rcm.sit.actimize.travelex.net/RCM/");
+		driver.get("https://rsit.actimize/RCM/");
 
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		//wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("j_username_1")));
